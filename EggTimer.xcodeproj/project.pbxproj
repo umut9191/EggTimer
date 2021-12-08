@@ -13,6 +13,7 @@
 		0415C17827614CE500F37275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0415C17627614CE500F37275 /* Main.storyboard */; };
 		0415C17A27614CE600F37275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0415C17927614CE600F37275 /* Assets.xcassets */; };
 		0415C17D27614CE600F37275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0415C17B27614CE600F37275 /* LaunchScreen.storyboard */; };
+		0415C18627614E4500F37275 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0415C18527614E4500F37275 /* alarm_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0415C17927614CE600F37275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0415C17C27614CE600F37275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0415C17E27614CE600F37275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0415C18527614E4500F37275 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm_sound.mp3; path = EggTimer/alarm_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		0415C16427614CE500F37275 = {
 			isa = PBXGroup;
 			children = (
+				0415C18527614E4500F37275 /* alarm_sound.mp3 */,
 				0415C16F27614CE500F37275 /* EggTimer */,
 				0415C16E27614CE500F37275 /* Products */,
 			);
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0415C18627614E4500F37275 /* alarm_sound.mp3 in Resources */,
 				0415C17D27614CE600F37275 /* LaunchScreen.storyboard in Resources */,
 				0415C17A27614CE600F37275 /* Assets.xcassets in Resources */,
 				0415C17827614CE500F37275 /* Main.storyboard in Resources */,
